@@ -26,8 +26,3 @@ CustomBackgroundColorBlue.args = {
   size: "normal",
   backgroundColor: "blue",
 };
-export const CustomBackgroundColorGreen = Template.bind({});
-CustomBackgroundColorGreen.args = {
-  size: "normal",
-  backgroundColor: "green",
-};
