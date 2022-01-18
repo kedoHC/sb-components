@@ -15,3 +15,19 @@ export const Basic = Template.bind({});
 Basic.args = {
   size: "normal",
 };
+
+export const CustomBackgroundColor = Template.bind({});
+CustomBackgroundColor.args = {
+  size: "normal",
+  backgroundColor: "red",
+};
+export const CustomBackgroundColorBlue = Template.bind({});
+CustomBackgroundColorBlue.args = {
+  size: "normal",
+  backgroundColor: "blue",
+};
+export const CustomBackgroundColorGreen = Template.bind({});
+CustomBackgroundColorGreen.args = {
+  size: "normal",
+  backgroundColor: "green",
+};

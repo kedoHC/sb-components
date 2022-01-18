@@ -9,10 +9,22 @@ export interface MyLabelProps {
    * Este es el tamaño de la etiqueta
    */
   size: "normal" | "h1" | "h2" | "h3";
+  /**
+   * Este es el tamaño de la etiqueta
+   */
+  backgroundColor?: string;
 }
 
-const MyLabel = ({ label = "My label", size = "normal" }: MyLabelProps) => {
-  return <span className={`label ${size}`}>{label}</span>;
+const MyLabel = ({
+  label = "My label",
+  size = "normal",
+  backgroundColor = "transparent",
+}: MyLabelProps) => {
+  return (
+    <span style={{ backgroundColor }} className={`label ${size}`}>
+      {label}
+    </span>
+  );
 };
 
 export default MyLabel;
