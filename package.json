@@ -16,7 +16,7 @@
   },
   "releases": {
     "branches": [
-      "main"
+      "master"
     ],
     "files": [
       "dist",
