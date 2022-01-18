@@ -15,7 +15,7 @@ export interface MyLabelProps {
   backgroundColor?: string;
 }
 
-const MyLabel = ({
+export const MyLabel = ({
   label = "My label",
   size = "normal",
   backgroundColor = "transparent",
@@ -26,5 +26,3 @@ const MyLabel = ({
     </span>
   );
 };
-
-export default MyLabel;
