@@ -17,3 +17,9 @@ export const CustomColor = Template.bind({});
 CustomColor.args = {
   color: "red",
 };
+
+export const CustomCaption = Template.bind({});
+
+CustomCaption.args = {
+  caption: "new caption",
+};
